@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_CREDENTIALS_ID = '8594ff72-a3e0-46e2-8b18-f15e62f0d18f' 
+        DOCKER_CREDENTIALS_ID = '6c8e6c94-4161-4572-9dc9-56154128c80a' 
         DEV_DOCKER_REPO = 'ramya634/dev'
         PROD_DOCKER_REPO = 'ramya634/prod'
         DOCKER_IMAGE_TAG = 'latest'
